@@ -1,0 +1,8 @@
+The scrabble assignment was tough from the start but I managed to finish it with all features
+working as they should. The board has a drag and drop element with different score multipliers and buttons
+to reset the board and their scores. The dictionaryCheck() function loads the dictionary and validates the words 
+created by the player. The addLetter() function allows players to be able to drag and drop the letter 
+tiles on the board and checks if the palcement is valid. Finally, the reset() button resets the game entirely along 
+with the board, scores, and tiles in the players hand.
+
+Adam_ElTelbani@student.uml.edu

@@ -1,0 +1,43 @@
+<!--
+File: Index.html
+GUI Assignment: Creating Your First Web Page
+Adam El-Telbani, UMass Lowell Computer Science, Adam_ElTelbani@student.uml.edu
+Copyright (c) 2024 by Adam. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Adam on June 28th, 2024 at 3:00PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Scrabble</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-q1p4Nq4/nGZlXYoQ/Yhx9RQfF4vP9DCd29B7DauLkCC3FRJZvgQOIVfy9D2H2+HI" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--title-->
+  <div class="title">
+    <h1>SCRABBLE</h1>
+  </div>
+  <div id="results" class="container-fluid">
+      <p>Tile Amount: <span id="TilesAmount" class="tileAmount"> 0</span></p>
+      <p>High Score: <span id="HighScore" class="highScore"> 0</span></p>
+      <p>Score: <span id="Score" class="score"> 0</span></p>
+  </div>
+  <div id="gameBoard"></div>
+  <div id="letterArray"></div>
+  <div id="buttons" class="container-fluid" >
+      <button class="btn btn-primary mx-1" id="Reset" onClick="reset()" type="button">Reset</button>
+      <button class="btn btn-primary mx-1" id="Submit" onClick="score()" type="button">Submit</button>
+  </div>
+    <footer>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

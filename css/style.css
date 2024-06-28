@@ -1,0 +1,75 @@
+/*
+File: Index.html
+GUI Assignment: Creating Your First Web Page
+Adam El-Telbani, UMass Lowell Computer Science, Adam_ElTelbani@student.uml.edu
+Copyright (c) 2024 by Adam. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Adam on June 28th, 2024 at 3:00PM
+-->
+*/
+
+body {
+    color: black;
+    background-color: rgb(223, 196, 156);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Papyrus", Fantasy;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: rgb(236, 166, 74);
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    border-bottom: black solid 5px;
+    margin: 0;
+    padding-top: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+#Reset, #Submit {
+    color: black;
+    background-color: burlywood;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lucida Console", "Papyrus", Fantasy;
+}
+
+.results {
+    text-align: end;
+}
+
+#gameBoard {
+    max-width: 600px;
+    margin: auto;
+}
+
+#letterArray {
+    background-image: url("../graphics_data/holder.png");
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.letterTile { 
+    max-width: 70px;
+    margin-left: 10px;
+}
+
+.score, .tilesleft, .bestScore {
+    display: inline;
+    margin: auto;
+}
+
+#buttons {
+    text-align: center;
+}
+
+footer {
+    font-size: 10px;
+    margin: 30px auto;
+}
